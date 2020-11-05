@@ -1,0 +1,46 @@
+input {
+    text-align: right;
+}
+
+.column-3{
+    width: 75%;
+    float: left;
+}
+
+.column-2{
+    width: 50%;
+    float: left;
+}
+
+.column-1{
+    width: 25%;
+    float: left;
+}
+
+button.calc-button{
+    height: 100px;
+    width: 100%;
+    border: 2px solid #ddd;
+    background: #eee;
+    font-size: 32px;
+    color: #555;
+}
+
+input.result {
+    text-align: right;
+    height: 100px;
+    width: auto;
+    font-size: 32px;
+    border: none;
+    float: right;
+    margin-right: 50px;
+    max-width: 100vw;
+    position: relative;
+}
+
+.last-float{
+    margin-right: 50px;
+    text-align: right;
+    font-size: 20px;
+    color: gray;
+}
